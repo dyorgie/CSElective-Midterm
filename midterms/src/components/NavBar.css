@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #3f784c;
+    background-color: #a04c59;
     color: #f0ffce;
     display: flex;
     justify-content: space-between;
@@ -9,6 +9,7 @@
     height: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    text-decoration: none;
     }
     ul {
     padding: 0;
@@ -16,8 +17,18 @@
     list-style: none;
     display: flex;
     gap: 2rem;
+    text-decoration: none;
     }
     li {
     padding: 13px;
+    color: white;
+    text-decoration: none;
     }
+
+    .links {
+        text-decoration: none;
+        color: white;
+    }
+
+    
     

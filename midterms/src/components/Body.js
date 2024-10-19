@@ -9,16 +9,20 @@ import Home from "./Home"
 export default function Body() {
   return (
     <>
+
+    <div className="parent">
     <h1>Week 8 CS Elective Activity</h1>
 
-    <Router>
-      <Navbar></Navbar>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
-    </Router>
+<Router>
+  <Navbar></Navbar>
+  <Routes>
+    <Route path="/" element={<Home />}></Route>
+    <Route path="/about" element={<About />}></Route>
+    <Route path="/contact" element={<Contact />}></Route>
+  </Routes>
+</Router>
+    </div>
+    
     </>
   );
 }
